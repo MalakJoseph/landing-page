@@ -1,7 +1,5 @@
 # Landing Page Project
 
-<!-- <img src="img/landig-page.JPG" alt="Landing Page Screenshot"> -->
-
 ## Table of Contents
 
 - [About the Project](#about-the-project)
