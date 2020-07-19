@@ -96,6 +96,7 @@ section {
   top: 0;
   width: 100%;
   z-index: 5;
+  transition: top 0.5s ease-in-out;
 }
 
 /* Footer Styles */
@@ -204,7 +205,7 @@ section:nth-of-type(3n + 1) .landing__container::after {
 /* ---- Theme State Rules ---- */
 /* Section Active Styles */
 /* Note: your-active-class class is applied through javascript. You should update the class here and in the index.html to what you set in your javascript file.  */
-section.your-active-class {
+section.active {
   background: rgb(0, 0, 0);
   background: linear-gradient(
     0deg,
@@ -213,12 +214,12 @@ section.your-active-class {
   );
 }
 
-section.your-active-class .landing__container::before {
+section.active .landing__container::before {
   opacity: 1;
   animation: rotate 4s linear 0s infinite forwards;
 }
 
-section.your-active-class .landing__container::after {
+section.active .landing__container::after {
   opacity: 1;
   animation: rotate 5s linear 0s infinite forwards reverse;
 }
@@ -231,4 +232,33 @@ section.your-active-class .landing__container::after {
   to {
     transform: rotate(360deg) translate(-1em) rotate(-360deg);
   }
+}
+
+.menu__link.active {
+  background: #333;
+  color: #fff;
+  transition: ease 0.3s all;
+}
+
+/* Scroll to top button */
+.scroll__to__top {
+  display: none;
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  padding: 10px;
+  border-radius: 30px;
+  font-size: 21px;
+  width: 49px;
+  background-color: #0a980a;
+  color: #fff;
+  border: none;
+  box-shadow: 1px 1px 5px #333;
+  outline: none;
+  cursor: pointer;
+}
+
+.scroll__to__top:hover,
+.scroll__to__top:focus {
+  background-color: #0a770a;
 }

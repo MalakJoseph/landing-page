@@ -20,14 +20,14 @@
 There isn't a required one!
 Now you can clone, download or open it from <a href="https://malakjoseph.github.io/memorygametest/">here</a>.
 
-## Contributing
+### Contributing
 
 Now, all pull requests are welcomed!
 
-## Credits
+### Credits
 
-- Project idea from Udacity Nanodegree program.
+Project idea from Udacity Nanodegree program.
 
-## License
+### License
 
 This project is licensed under the terms of the MIT license.
