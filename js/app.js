@@ -91,7 +91,7 @@ function scrollToTop() {
   button.addEventListener("click", () => {
     document.documentElement.scrollIntoView({
       behavior: "smooth",
-    }).scrollTop = 0;
+    });
   });
 }
 

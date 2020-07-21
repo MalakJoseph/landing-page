@@ -16,7 +16,7 @@
 ### Installation
 
 There isn't a required one!
-Now you can clone, download or open it from <a href="https://malakjoseph.github.io/memorygametest/">here</a>.
+Now you can clone, download or open it from <a href="https://malakjoseph.github.io/landing-page/">here</a>.
 
 ### Contributing
 
